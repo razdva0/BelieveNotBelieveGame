@@ -56,7 +56,7 @@ class BelieveNotBelieve:
                 self.__game_status = GameStatus.LOST
 
     def __is_winning(self):
-        return self.right_questions == len(self.questions)
+        return self.right_questions >= self.allowed_misses
 
     @property
     def game_status(self) -> GameStatus:
