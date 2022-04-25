@@ -1,2 +1,6 @@
-# believe_not_believe_game
+# Believe not believe
  
+### To start:
+```sh
+python GameRun.py
+```
